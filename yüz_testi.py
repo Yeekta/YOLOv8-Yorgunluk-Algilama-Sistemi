@@ -23,7 +23,7 @@ while cap.isOpened(): # eğer kamera açıksa True döner
 
     for r in results:
         if r.keypoints is not None and len(r.keypoints.conf) > 0:
-            # keypoints.conf -> Bize noktaların güven skorunu verir (NumPy Array) ( senin yorum satırın sayesinde bunu anladım thx)
+            # keypoints.conf -> Bize noktaların güven skorunu verir (NumPy Array)
             # [0] ilk algılanan insan
             if len(r.keypoints.conf[0]):
                 confidences = r.keypoints.conf[0].cpu().numpy()
