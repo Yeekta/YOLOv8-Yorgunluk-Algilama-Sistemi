@@ -17,7 +17,7 @@ while cap.isOpened(): # eğer kamera açıksa True döner
     if not success: break # eğer başarılı dönmüyorsa direk programı kapatır
 
     # YOLOv8 ile görseli işle
-    results = model(frame, verbose=False) # sonuçlar model içinde kare diyor ama IDK
+    results = model(frame, verbose=False)
 
     face_closed = False # başta yüz kapalıyı False olarak alıyor
 
@@ -32,7 +32,7 @@ while cap.isOpened(): # eğer kamera açıksa True döner
                 person = confidences[0]
 
 
-                if person < 0.4:
+                if person < 0.4: # eğer person güven skrou 0.4ten küçükse face closed True döner 
                  face_closed = True
             else:
                 face_closed = True
