@@ -1,6 +1,6 @@
 # YOLOv8-Pose ile Canlı Yüz ve Yorgunluk Algılama Sistemi 🚀
 
-Bu proje, bilgisayar kamerasını kullanarak kullanıcının yüzünün görünürlüğünü anlık olarak takip eden ve belirli bir süre yüz algılanmadığında (yüz kapatıldığında veya kullanıcı uyuyakalıp kafası düştüğünde) sesli uyarı veren bir Yapay Zeka (Bilgisayarlı Görü) uygulamasıdır.
+Bu proje, bilgisayar kamerasını kullanarak kullanıcının yüzünün görünürlüğünü anlık olarak takip eden ve belirli bir süre yüz algılanmadığında (yüz kapatıldığında veya kullanıcı uyuyakalıp kafası düştüğünde) sesli uyarı veren bir Yapay Zeka (Bilgisayarlı Görüş) uygulamasıdır.
 
 ## 🧠 Projenin Hikayesi ve Mantığı
 
